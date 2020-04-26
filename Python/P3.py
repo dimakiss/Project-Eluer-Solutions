@@ -29,4 +29,4 @@ def smallest_prime_factor(n,k):
 
 
 print(calculate(600851475143 ))
-# Answare: 6857
+# Answer: 6857
