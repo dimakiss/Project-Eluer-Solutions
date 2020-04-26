@@ -1,4 +1,6 @@
-Solution to problem 1 
+#Solution to problem 1 
+#https://projecteuler.net/problem=1
+#Run time 33ms
 
 
 #find_sum get n as number
