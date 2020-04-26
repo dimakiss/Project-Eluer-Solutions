@@ -17,4 +17,4 @@ def sum_of_Fibonacci(n):
     return sum
 
 print(sum_of_Fibonacci(4000000))
-#Answare: 4613732
+#Answer: 4613732
