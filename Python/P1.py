@@ -12,3 +12,4 @@ def find_sum(n):
             sum+=i
     return sum
 print(find_sum(100000))
+#Answare: 233168
