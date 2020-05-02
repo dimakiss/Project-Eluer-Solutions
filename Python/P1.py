@@ -3,8 +3,8 @@
 #Run time 33ms
 
 
-#find_sum get n as number
-#find_sum return the sum of numbers below n which are multiples of 3 or 5
+#find_sum get n as the number
+#find_sum returns the sum of numbers below n which are multiples of 3 or 5
 def find_sum(n):
     sum=0
     for i in range(n):
