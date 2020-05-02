@@ -3,7 +3,7 @@
 # Run time less then 1ms
 
 
-# sum_of_Fibonacci get n as number
+# sum_of_Fibonacci get n as the number
 # sum_of_Fibonacci return the sum of even Fibonacci numbers below n
 def sum_of_Fibonacci(n):
     n1,n2,n3=0,1,1
