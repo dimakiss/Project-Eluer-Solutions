@@ -20,7 +20,7 @@ for i in range(13):
 print(zf)
 max_prod=0
 
-for i in range(0,numbers.__len__()-15):
+for i in range(0,numbers.__len__()-13):
     if zf == 0:
         max_prod = max(max_prod, temp_num)
     if numbers[i + 13] == "0":
