@@ -1,6 +1,6 @@
 
-# Solution to problem 7
-# https://projecteuler.net/problem=7
+# Solution to problem 8
+# https://projecteuler.net/problem=8
 # Run time  1.87ms
 
 #This solution is to take the initial 13 dig number and add the next number and erase the last number
