@@ -15,7 +15,8 @@ def is_in(num1,num2):
         if lst[i]!=0:
             return False
     return True
-# Answer: 972
+
+
 found=False
 num=0
 
