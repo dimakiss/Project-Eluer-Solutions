@@ -1,10 +1,10 @@
 
 #Solution to problem 21
 #https://projecteuler.net/problem=21
-#Run time 4974.01ms
+#Run time 136.96ms
 
 #divisitors get num as the number
-#divisitors return the sum of divisors of num
+#divisitors return the number of divisors of num
 def divisitors_sum(num):
     sum=1
     sqrt=int(num**0.5)
@@ -16,9 +16,9 @@ def divisitors_sum(num):
     return sum
 
 sum=0
-for i in range(3,100001):
+for i in range(3,10000):
     temp=divisitors_sum(i)
     if divisitors_sum(temp)==i and temp!=i:
         sum+=i+temp
-print(sum//2) ## its take twice every option for example in i==220  d(220) = 284 it will tkae 220 284 and for i==284 the same
-#Answer: 852810
+print(sum//2) # its take twice every option for example in i==220  d(220) = 284 it will tkae 220 284 and for i==284 the same
+#Answer: 31626
