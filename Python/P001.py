@@ -1,6 +1,6 @@
 #Solution to problem 1 
 #https://projecteuler.net/problem=1
-#Run time 33ms
+#Run time 1ms
 
 
 #find_sum get n as the number
@@ -11,5 +11,5 @@ def find_sum(n):
         if i%3==0 or i%5==0:
             sum+=i
     return sum
-print(find_sum(100000))
+print(find_sum(1000))
 #Answer: 233168
