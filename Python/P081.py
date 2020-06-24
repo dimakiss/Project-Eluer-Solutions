@@ -1,7 +1,7 @@
 
 # Solution to problem 81 
 # https://projecteuler.net/problem=81
-# Run time 1089 ms
+# Run time 9 ms
 
 #lst=[[131,673,234,103,18],[201,96,342,965,150],[630,803,746,422,111],[637,699,497,121,956],[805,732,524,37,331]]
 lst=[]
