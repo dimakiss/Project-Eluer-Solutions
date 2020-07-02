@@ -1,7 +1,7 @@
 
 # Solution to problem 303
 # https://projecteuler.net/problem=303
-# Run time 174396 ms
+# Run time 174396 ms (3 min)
 
 def toStr(n,base=3):
     
@@ -12,7 +12,9 @@ def toStr(n,base=3):
         return convertString[n]
     else:
         return toStr(n//base,base) + convertString[n%base]
+    
 lst=[1]
+
 def test(num):
 
     for i in lst:
@@ -31,12 +33,14 @@ def test2(num):
         temp += 1
         t = int(toStr(temp))
     return int(toStr(temp))
-sum=0
-tester=[]
 
-# the max number which in base 3 is divisable by 1<i<10000 except some excaptions is 2420280
+sum=0
+
+tester=[] # for exceptions
+
+# the max number which in base 3 is divisible by 1<i<10000 except some exceptions is 2420280
 # so lst is all numbers till 2420280 in base 3
-for i in range(1,2420280):#1764915561
+for i in range(1,2420280):
     lst.append(int(toStr(i)))
 
 # finds the number in base 3 which divisible by i 
@@ -48,10 +52,10 @@ for i in range(1,10001):
         #print(i)
         
 last=test(99)
-lst=[lst[-1]] # all exceptions are not divisble by all the numbers in lst
+lst=[lst[-1]] # all exceptions are not divisible by all the numbers in lst
 for i in tester:
     if i==999 or i==9999: # 99-> 1122222222 ; 999->111222222222222 9999-> 11112222222222222222
-                          # rear exception found menually
+                          # rare exception found manually
         while last % i!=0:
             last = int("1"+str(last)+"2222")
         t=last
